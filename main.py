@@ -16,7 +16,7 @@ TOKEN = os.getenv("TOKEN")
 
 client = commands.Bot(command_prefix=':', self_bot=True, help_command=None)
 
-print(Fore.RED+"I, ANTOGAMER, AM NOT RESPONSIBLE FOR ANY OF YOUR ACCOUNT BANS MADE FROM THIS USERBOT, PROCEED AT YOUR RISK, YOU CAN QUIT BY USING CTRL+C!!!")
+print(Fore.RED+"I, ANTOGAMER, AM NOT RESPONSIBLE FOR ANY OF YOUR ACCOUNT BANS MADE FROM THIS USERBOT, PROCEED AT YOUR RISK, YOU CAN QUIT BY USING CTRL+C!!! I HIGHLY RECOMMEND USING AN ALT")
 time.sleep(0.5)
 print(Fore.WHITE+"Proceeding in 5 seconds...")
 time.sleep(5)
