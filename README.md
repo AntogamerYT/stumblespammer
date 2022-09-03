@@ -26,3 +26,5 @@ pip install -r .\requirements.txt
 ```
 
 To run use `py main.py` on Windows or `python3 main.py` on Linux/Mac OS
+
+[ISTHG ON TOP](https://discord.gg/stumble)
