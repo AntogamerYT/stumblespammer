@@ -29,16 +29,11 @@ print(" ")
 image = input("Please input the image that you would like to send on the report, just press enter to skip:")
 
 def checkifimage(link):
-	try:
-	 req = requests.get(link)
-	 if req.headers["content-type"] == "image/png" or req.headers["content-type"] == "image/jpeg" or req.headers["content-type"] == "image/jpg" or req.headers["content-type"] == "image/gif" or req.headers["content-type"] == "image/webp" or req.headers["content-type"] == "image/bmp":
-	  return True
-	 else:
-	  return False
-	except:
-		return False
+	res = requests.head(link)
+	return res.headers["Content-Type"].startswith("image/")
+	 
 
-while checkifimage(image) == False and image != "":
+while checkifimage(image) != True and image != "":
 	image = input("Please input a valid image link:")
 @client.event
 async def on_ready():
