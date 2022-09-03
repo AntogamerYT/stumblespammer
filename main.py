@@ -2,14 +2,12 @@
 import discord
 from discord.ext import commands
 from dotenv import load_dotenv
-from io import BytesIO
 import requests
 import asyncio
 import os
 import time
 import colorama
 from colorama import Fore
-from PIL import Image
 
 load_dotenv()
 
