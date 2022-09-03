@@ -4,6 +4,7 @@ This bot will help you spam Bug Bot, Stumble Guys' discord bug report bot
 
 ## Requirements
 Python 3.10+
+
 A brain
 
 ## Installation
