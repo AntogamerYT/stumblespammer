@@ -18,7 +18,7 @@ Open your preferred terminal in the project folder, you will need to execute a c
 Linux/Mac OS:
 ```
 python3 -m pip install -r requirements.txt
-# if you dont have pip install python3-pip Linux or python3 -m ensurepip on Mac OS
+# if you dont have pip install python3-pip on Linux or python3 -m ensurepip on Mac OS
 ```
 
 Windows:
