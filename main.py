@@ -7,7 +7,7 @@ import asyncio
 import os
 import time
 import colorama
-from colorama import Fore
+from colorama import Fore, Style
 
 load_dotenv()
 
@@ -18,7 +18,7 @@ client = commands.Bot(command_prefix=':', self_bot=True, help_command=None)
 
 print(Fore.RED+"I, ANTOGAMER, AM NOT RESPONSIBLE FOR ANY OF YOUR ACCOUNT BANS MADE FROM THIS USERBOT, PROCEED AT YOUR RISK, YOU CAN QUIT BY USING CTRL+C!!! I HIGHLY RECOMMEND USING AN ALT")
 time.sleep(0.5)
-print(Fore.WHITE+"Proceeding in 5 seconds...")
+print(Style.RESET_ALL+"Proceeding in 5 seconds...")
 time.sleep(5)
 text = input("Input the text that you would like to send to the channel (this will cover all the inputs asked from the bot):")
 
@@ -33,7 +33,7 @@ def checkifimage(link):
 	return res.headers["Content-Type"].startswith("image/")
 	 
 
-while checkifimage(image) != True and image != "":
+while not checkifimage(image) and image != "":
 	image = input("Please input a valid image link:")
 @client.event
 async def on_ready():
