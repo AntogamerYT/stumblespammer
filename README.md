@@ -2,6 +2,8 @@
 
 This bot will help you spam Bug Bot, Stumble Guys' discord bug report bot
 
+**I, ANTOGAMER, AM NOT RESPONSIBLE FOR ANY OF YOUR DISCORD ACCOUNT BANS MADE FROM THIS USERBOT, PROCEED AT YOUR RISK!**
+
 ## Requirements
 Python 3.10+
 
