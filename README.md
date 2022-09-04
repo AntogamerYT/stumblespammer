@@ -1,5 +1,7 @@
 # Stumble Spammer
 
+**A rewrite (yes, already) will be coming in the next days: this will make the bot faster and more precise**
+
 This bot will help you spam Bug Bot, Stumble Guys' discord bug report bot
 
 **I, ANTOGAMER, AM NOT RESPONSIBLE FOR ANY OF YOUR DISCORD ACCOUNT BANS MADE FROM THIS USERBOT, PROCEED AT YOUR RISK! I HIGHLY RECOMMEND USING AN ALT**
