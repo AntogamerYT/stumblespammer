@@ -42,17 +42,17 @@ async def on_ready():
 		counter = 0
 		while True:
 		 await bugbot.send("/report")
-		 await asyncio.sleep(0.2)
+		 await asyncio.sleep(0.4)
 		 await bugbot.send("YES")
-		 await asyncio.sleep(0.3)
+		 await asyncio.sleep(0.5)
 		 await bugbot.send(text)
-		 await asyncio.sleep(0.3)
+		 await asyncio.sleep(0.5)
 		 await bugbot.send(text)
-		 await asyncio.sleep(0.3)
+		 await asyncio.sleep(0.5)
 		 await bugbot.send(text)
-		 await asyncio.sleep(0.3)
+		 await asyncio.sleep(0.5)
 		 await bugbot.send(text)
-		 await asyncio.sleep(0.3)
+		 await asyncio.sleep(1.3)
 		 if image != "":
 			 await bugbot.send(image)
 		 else:
